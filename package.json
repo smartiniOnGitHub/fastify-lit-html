@@ -1,0 +1,43 @@
+{
+  "name": "fastify-lit-html",
+  "version": "0.1.0",
+  "description": "Fastify plugin for using lit-html templates",
+  "main": "src/plugin",
+  "scripts": {
+    "dependency:log": "npm list > ./temp/dependencies.log",
+    "example": "node example/example",
+    "lint": "standard",
+    "test:unit": "tap -J test/*.test.js test/*/*.test.js",
+    "test:unit:debug": "tap -T --strict --node-arg=--inspect-brk test/*.test.js test/*/*.test.js",
+    "test": "npm run lint && npm run test:unit"
+  },
+  "dependencies": {
+    "fastify-plugin": "^1.5.0",
+    "lit-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "fastify": "^1.14.1",
+    "standard": "^12.0.1",
+    "tap": "^12.5.3"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=8.15.0"
+  },
+  "homepage": "https://github.com/smartiniOnGitHub/fastify-lit-html#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartiniOnGitHub/fastify-lit-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smartiniOnGitHub/fastify-lit-html/issues"
+  },
+  "keywords": [
+    "fastify",
+    "plugin",
+    "template",
+    "lit-html"
+  ],
+  "author": "Sandro Martini <sandro.martini@gmail.com>",
+  "license": "MIT"
+}
