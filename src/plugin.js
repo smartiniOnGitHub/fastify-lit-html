@@ -5,6 +5,7 @@
 // import * as fp from 'fastify-plugin'
 import fp from 'fastify-plugin'
 // const litHtml = require('lit-html')
+// import { html, render, svg } from 'lit-html'
 import litHtml from 'lit-html'
 // import * as litHtml from 'lit-html'
  */
